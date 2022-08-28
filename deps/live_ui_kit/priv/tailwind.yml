@@ -1,0 +1,125 @@
+alert:
+  base: "rounded-lg py-5 px-6 mb-4 text-base mb-3"
+  info: "bg-blue-100 text-blue-700"
+  success: "bg-green-100 text-green-700"
+  warning: "bg-yellow-100 text-yellow-700"
+  error: "bg-red-100 text-red-700"
+
+badge:
+  base: "text-xs inline-block py-1 px-2.5 leading-none text-center whitespace-nowrap align-baseline font-bold rounded"
+  primary: "bg-blue-600 text-white"
+  secondary: "bg-purple-600 text-white"
+  info: "bg-blue-400 text-white"
+  success: "bg-green-500 text-white"
+  warning: "bg-yellow-500 text-white"
+  error: "bg-red-600 text-white"
+  light: "bg-gray-200 text-gray-700"
+  dark: "bg-gray-800 text-white"
+
+button:
+  base: "inline-block px-6 py-2.5 font-medium text-xs leading-tight uppercase rounded shadow-md hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg transition duration-150 ease-in-out"
+  primary: "bg-blue-600 text-white hover:bg-blue-700 focus:bg-blue-700 active:bg-blue-800"
+  secondary: "bg-purple-600 text-white hover:bg-purple-700 focus:bg-purple-700 active:bg-purple-800"
+  info: "bg-blue-400 text-white hover:bg-blue-500 focus:bg-blue-500 active:bg-blue-600"
+  success: "bg-green-500 text-white hover:bg-green-600 focus:bg-green-600 active:bg-green-700"
+  warning: "bg-yellow-500 text-white hover:bg-yellow-600 focus:bg-yellow-600 active:bg-yellow-700"
+  error: "bg-red-600 text-white hover:bg-red-700 focus:bg-red-700 active:bg-red-800"
+  link: "bg-transparent text-blue-600 hover:text-blue-700 hover:bg-gray-100 focus:bg-gray-100 active:bg-gray-200"
+
+card:
+  base: "block rounded-lg shadow-lg bg-white border"
+
+card_body:
+  base: "p-6"
+
+card_header:
+  base: "py-3 px-6 border-b border-gray-300"
+
+card_title:
+  base: "text-gray-900 text-xl leading-tight font-medium mb-2"
+
+card_subtitle:
+  base: ""
+
+card_footer:
+  base: "py-3 px-6 border-t border-gray-300 text-gray-600"
+
+card_link:
+  base:
+
+collapse:
+  base: "overflow-hidden h-0 duration-500 transition-all"
+  collapsing: ""
+  open: ""
+
+dropdown:
+  base: "relative inline-block text-left"
+  left: "absolute left-0 z-20 hidden"
+  center: "absolute right-0 z-20 hidden"
+  right: "absolute right-0 z-20 hidden"
+
+dropdown_toggle:
+  base: "flex items-center"
+
+dropdown_menu:
+  base: "border shadow-xl menu bg-base-200 border-base-300 rounded-box w-52"
+
+dropdown_item:
+  base:
+
+dropdown_divider:
+  base:
+
+modal:
+  base: "fixed top-0 left-0 z-50 w-full h-screen outline-none"
+
+modal_dialog:
+  base: "w-full h-full overflow-x-scroll"
+
+modal_backdrop:
+  base: "absolute inset-0 z-40 bg-gray-900 opacity-75"
+
+modal_content:
+  base: "relative z-50 w-auto max-w-lg px-4 mx-auto my-8 shadow-lg poiner-events-none sm:px-0"
+
+modal_header:
+  base: "flex items-start justify-between p-4 border-b rounded-t border-base-200"
+
+modal_title:
+  base: "mb-0 text-lg leading-normal"
+
+modal_body:
+  base: "relative flex-auto p-4"
+
+modal_footer:
+  base: ""
+
+spinner:
+  base: "w-4 h-4 text-primary animate-spin"
+  primary: "text-purple-500"
+  secondary: ""
+  info: "text-info"
+  success: "text-success"
+  warning: "text-warning"
+  error: "text-danger"
+
+table:
+  base: "w-full overflow-hidden rounded-lg shadow leading-normal"
+
+table_wrapper:
+  base: "px-2 py-2 -mx-2 overflow-x-auto"
+
+th:
+  base: "px-5 py-3 text-sm font-normal text-left text-gray-800 uppercase bg-white border-b border-gray-200"
+
+thead:
+  base: ""
+
+tbody:
+  base: ""
+
+tr:
+  base: ""
+
+td:
+  base: "px-5 py-5 text-sm bg-white border-b border-gray-200"
